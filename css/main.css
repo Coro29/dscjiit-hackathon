@@ -238,6 +238,10 @@ section.hero .inner-hero {
     padding: 5px 0;
     text-transform: none;
 }
+.logo-default {
+	padding: 0px;
+	vertical-align: center;
+}
 .mobile-but {
     display: inline-block;
     height: 24px;
@@ -811,12 +815,19 @@ select.error {
 
 
 /* End sponsors section*/
+.block-club {
+	display: flex;
+	align-items: center;
+	height: 10em;
+	justify-content: center;
+}
 .block-club img {
 
-    height:85%;
+    height: inherit;
     opacity: 1.0;
 
-    width: 85%;
+    /*width: 85%;*/
+	padding: 0px 8px 0px 0px; 
 }
 .block-club-1 img{
     height:2048;
